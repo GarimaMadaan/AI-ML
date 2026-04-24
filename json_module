@@ -1,0 +1,22 @@
+import json
+
+# py_obj = {
+#     "name": "Garima",
+#     "isEmployee": True,
+#     "age": 22
+# }
+
+# json_str = json.dumps(py_obj)
+
+# # json_str = '{"name": "Garima", "isEmployee": true, "age": 22}'
+
+# # py_obj = json.loads(json_str)
+# print(type(json_str), json_str)
+# print(type(py_obj), py_obj)
+
+with open("data.json", "r") as f:
+    data = json.load(f)
+    print(type(data), data)
+
+# with open("data.json", "w") as f:
+#     json.dump(py_obj, f, indent=4)

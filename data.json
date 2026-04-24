@@ -1,0 +1,11 @@
+{
+    "name": "Garima",
+    "isEmployee": true,
+    "age": 22,
+    "address":{
+        "city": "Delhi",
+        "country": "India"
+    },
+
+    "subjects": ["Math", "Science", "English"]
+}

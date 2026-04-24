@@ -1,0 +1,11 @@
+try:
+    x = int(input("enter x: "))
+    ans = 10/x
+    print(f"the answer is {ans}")
+except ValueError:
+    print("Please enter a valid integer.")
+except ZeroDivisionError:
+    print("Please enter a non-zero value for x.")
+
+finally:
+    print("This block will always execute.")    
